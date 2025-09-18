@@ -25,3 +25,5 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${BUILD_OUTPUT_DIR}/lib")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${BUILD_OUTPUT_DIR}/lib")
 
 
+add_subdirectory(${CMAKE_SOURCE_DIR}/libapkg EXCLUDE_FROM_ALL)
+add_subdirectory(${CMAKE_SOURCE_DIR}/bin/apkg-overlay)
